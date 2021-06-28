@@ -21,21 +21,7 @@
                       <!-- slides wrapper start -->
                       <div class="carousel-inner" >
                           <div class="carousel-item active">
-                              <img src="{{asset('img/View of Monrovia Liberia.jpg')}}" alt="" class="d-block w-100">
-                              <div class="carousel-caption">
-                                  <h3>Grater Monrovia </h3>
-                                  <p>Aerial view of the Monrovia</p>
-                              </div>
-                          </div>
-                          <div class="carousel-item">
-                             <img src="{{asset('img/Elizebath Village.jpg')}}" alt="" class="d-block w-100">
-                             <div class="carousel-caption">
-                                 <h3>Elizebath Village</h3>
-                                 <p>A Place Away from The City</p>
-                             </div>
-                         </div>
-                         <div class="carousel-item">
-                             <img src="{{asset('img/Boulevard-Palace-2.jpg')}}" alt="" class="d-block w-100">
+                             <img src="img/BoulevardPalace.jpg" alt="" class="d-block w-100">
                              <div class="carousel-caption">
                                  <h3>Boulevard Palace Hotel</h3>
                                  <p>
@@ -43,16 +29,48 @@
                                     Where elegence meets African Luxary.
                                  </p>
                              </div>
-                         </div>
-                         <div class="carousel-item">
-                             <img src="{{asset('img/Libassa Ecolodge.jpg')}}" alt="" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item ">
+                              <img src="img/Elizebath Village.jpg" alt="" class="d-block w-100">
+                              <div class="carousel-caption">
+                                 <h3>Elizebath Village</h3>
+                                 <p>A Place Away from The City</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                             <img src="img/maxresdefault.jpg" alt="" class="d-block w-100">
                              <div class="carousel-caption">
                                  <h3>Libassa Ecolodge</h3>
-                                 <p>Beach and Lagoon Resort in a Natural Tropical Palm Tree Forest close to Naturel</p>
+                                 <p>Beach and Lagoon Resort in a Natural  <br>
+                                 Tropical Palm Tree Forest close to Naturel</p>
                              </div>
                          </div>
                          <div class="carousel-item">
-                             <img src="{{asset('img/Monrovia Liberia Waterside.jpg')}}" alt="" class="d-block w-100">
+                             <img src="img/RoyalGrand.jpg" alt="" class="d-block w-100">
+                             <div class="carousel-caption">
+                                 <h3>Ecobank Ghana Head Office</h3>
+                                 <p>The International Bank</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                             <img src="img/Farmington.jpg" alt="" class="d-block w-100">
+                             <div class="carousel-caption">
+                                 <h3>The Farmington Hotel</h3>
+                                 <p>The Ambassador Hotel</p>
+                             </div>
+                         </div>
+                         <div class="carousel-item">
+                             <img src="img/LiberianHerritage.jpg" alt="" class="d-block w-100">
+                             <div class="carousel-caption">
+                                 <h3>Liberian Herritage</h3>
+                                 <p>
+                                    Culturial Performance <br>
+                                    By Liberians culture trupes.
+                                 </p>
+                             </div>
+                          </div>
+                         <div class="carousel-item">
+                             <img src="img/Monrovia Liberia Waterside.jpg" alt="" class="d-block w-100">
                              <div class="carousel-caption">
                                  <h3>WaterSide Market</h3>
                                  <p>Where You Can Find Asocited Items</p>
