@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+.carousel-inner > .carousel-item > img{
+   max-height: 500px; /*carousel-images have the same image*/
+}
+.modal-image{
+    max-width: 100%;
+    /* -moz-max-width: 100%; */
+    max-height: 20%;
+    /* -moz-max-height: 20%; */
+}
+.description-text{
+    font-size: 0.9em;
+}
+
+td > p {
+    font-weight: 600;
+}
+
+/* make a footer sticky */
+.footer {
+    position: absolute;
+    bottom: 0;
+    /* height: 60px; */
+    width: 100%;
+    padding-top:20px;
+    z-index:1000;
+  }
+  .signup-footer{
+      position: relative;
+  }
+
+#login-section form{
+   padding: 5% 0 !important;
+}
+
+/* firefox only css */
+@-moz-document url-prefix() { 
+    .modal-image{
+        max-width: 100%;
+        max-height: 50%;
+    }
+
+    .signup-footer{
+       margin-top: 2%;
+    }
+  }
+
+
+  /* media queries */
+  
