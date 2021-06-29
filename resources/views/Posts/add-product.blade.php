@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="css/bootstrap-image-upload.css"> -->
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/fontawesome-all.js"></script>
+    
 </head>
 <body>
      <!-- NAVBAR  -->
@@ -89,7 +90,7 @@
                                 <div class="form-group row mt-4">
                                     <label for="seller_contact" class="col-sm-4 col-form-label">Contact No:</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" name="seller_contact" placeholder="Enter Contact here">
+                                        <input type="text" class="form-control" name="seller_contact" laceholder="Enter Contact here" value="{{Auth::user()->contact_number}}">
                                     </div>
                                 </div>
                              </div>
@@ -100,17 +101,15 @@
             <!-- /container -->
      <!-- SELLER VIEW ENDS HERE --> <br />
 
-    <!-- FOOTER -->
-
-    <footer  class="bg-primary py-3">
-       <p class="text-center py-2 text-white">LIBER-TECH &copy; 2020</p>
+   <br >
+     <!-- FOOTER -->
+    <footer  class="bg-primary py-2">
+       <p class="text-center py-2 text-white">LIBER-TECH &copy; 2019</p>
     </footer>
 
 </body>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap-upload-image.js"></script>
-
 <!-- script for toggle sidebar button -->
 <script>
     // $(document).ready(function () {
@@ -121,7 +120,7 @@
     //      });
 
     // });
-    var $imageupload = $('.imageupload');
+     var $imageupload = $('.imageupload');
     $imageupload.imageupload({
  
         maxWidth: 200,

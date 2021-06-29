@@ -49,6 +49,8 @@
                                 <td><span class="description-text">
                                 {{$product->seller_contact}}
                                     </span>
+                                    </a>
+                                <!-- <a href="https://api.whatsapp.com/send?phone=+231775303640"><i class="fa fa-whatsapp my-float"></i></a> -->
                                 </td>
                             </tr>
                         </tbody>

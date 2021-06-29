@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <title>SHOPLIB.COM</title>
+    <title>SHOPLIB.COM Mockup</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/fontawesome-all.js"></script>
@@ -13,30 +13,33 @@
      <!-- NAVBAR  -->
      <nav class="navbar navbar-expand-lg navbar-light bg-primary py-3">
         <div class="container">
-                <a class="navbar-brand text-white" href="{{route('products')}}">SHOPLIB.COM</a>
+                <a class="navbar-brand text-white" href="/">SHOPLIB.COM</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                        <!-- Authentication Links -->
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
 
-                        <a href="{{route('products.add')}}" class="btn btn-info btn-lg">Add New Product <span><i class="fas fa-plus-circle"></i></span></a>
-                    </li>
-                    <a class="btn btn-dark" href="/"
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        Logout
-                    </a>
+                                        {{ __('Logout') }}
+                                    </a>
 
-                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                         @csrf
-                 </form>
-
-
-                </div>
-        </div>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                       
+                    </ul>
+                
       </nav>
       <!-- NAVABAR END -->
 
@@ -44,9 +47,11 @@
       <section id="seller-section">
          <div class="container">
           <div class="row mt-5">
-                <div class="col">
-                    <h4 class="text-center">Your Products</h4>
-                
+            <a href="/add-product" class="btn btn-info btn-lg">Add New Product <span><i class="fas fa-plus-circle"></i></span></a>
+              <div class="col">
+
+                <h4 class="text-center">Product list</h4>
+
             </div>
         </div>
             <div class="row my-5 justify-content-center align-items-center">

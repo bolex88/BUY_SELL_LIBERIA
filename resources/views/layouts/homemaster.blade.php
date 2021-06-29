@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
     <script src="{{asset('js/fontawesome-all.js')}}"></script>
+
 </head>
 <body>
      <!-- NAVBAR  -->
