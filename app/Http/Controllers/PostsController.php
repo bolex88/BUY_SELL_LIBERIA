@@ -44,4 +44,18 @@ class PostsController extends Controller
         return view('Posts.details-product', compact('product', 'user'));
     }
 
+//     public function search(Request $request){
+//     // Get the search value from the request
+//     $search = $request->input('search');
+
+//     // Search in the title and body columns from the posts table
+//     $products = Post::find($title)
+//         ->where('title', 'LIKE', "%{$search}%")
+//         ->orWhere('body', 'LIKE', "%{$search}%")
+//         ->get();
+
+//     // Return the search view with the resluts compacted
+//     return view('search', compact('products'));
+// }
+
 }

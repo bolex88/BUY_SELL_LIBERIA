@@ -46,10 +46,10 @@
                              </div>
                          </div>
                          <div class="carousel-item">
-                             <img src="img/RoyalGrand.jpg" alt="" class="d-block w-100">
+                             <img src="img/IB-Bank-Liberia.png" alt="" class="d-block w-100">
                              <div class="carousel-caption">
-                                 <h3>Ecobank Ghana Head Office</h3>
-                                 <p>The International Bank</p>
+                                 <h3>IB Liberia Head Office</h3>
+                                 <p>International Bank (Liberia) Limited</p>
                              </div>
                          </div>
                          <div class="carousel-item">
@@ -116,9 +116,9 @@
                 <div class="container">
                     <div class="card-deck">
                             @foreach($products as $product)
-                        <div class="col-3">
+                        <div class="col-md-4  col-sm-4 col-xs-6">
                             <div class="card">
-                                <img src="/storage/{{$product->images()->first()->path}}" alt="" class="card-img-top">
+                                <img src="/storage/{{$product->images()->first()->path}}" alt="" class="card-img-top" height="160" width="100">
                                 <div class="card-body">
                                     <h5>{{$product->title}}</h5>
                                     <p>{{$product->price}}</p>
@@ -127,8 +127,9 @@
                                     <a href="{{route('products.details', $product->id)}}" class="btn btn-info" data-target="#product-id-one">View Details</a>
                                 </div>
                             </div>
-                            
+                             <br />
                         </div>
+                       
                         @endforeach
                     </div>
                 </div>

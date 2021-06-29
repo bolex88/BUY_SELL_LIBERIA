@@ -9,7 +9,7 @@
                 <div class="col-md-6">
                     <div class="card my-5">
                         <div class="column">
-                            <img src="/storage/{{$product->images()->first()->path}}" alt="" class="card-img-top">
+                            <img src="/storage/{{$product->images()->first()->path}}" alt="" class="card-img-top" height="300" width="750">
                         </div>
                     </div>
                 </div>
@@ -49,8 +49,9 @@
                                 <td><span class="description-text">
                                 {{$product->seller_contact}}
                                     </span>
-                                    </a>
-                                <!-- <a href="https://api.whatsapp.com/send?phone=+231775303640"><i class="fa fa-whatsapp my-float"></i></a> -->
+                                    <a href="tel:{{$product->seller_contact}}">CLICK TO CALL</a> <br>
+                                    <a href="sms:{{$product->seller_contact}}">CLICK TO TEXT</a>
+                                    <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                                 </td>
                             </tr>
                         </tbody>

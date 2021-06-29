@@ -13,7 +13,7 @@
      <!-- NAVBAR  -->
      <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-3">
         <div class="container">
-                <a class="navbar-brand text-white" href="index.html">Buy and Sell Liberia</a>
+                <a class="navbar-brand text-white" href="/">SHOPLIB.COM</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -94,20 +94,21 @@
                             </div>
                         </div>
                     </form>
-                    <a href="{{ route('register') }}" class="text-muted py-2">Already have an account? Click here!</a>
+                    <br />
+                    <a href="{{ route('register') }}" class="text-muted py-2">Done have an account? Click here!</a>
                 </div>     
                 </div>
             </div>
 
    </div>
- <!-- FOOTER -->
+<!-- FOOTER -->
     <footer  class="bg-primary py-3 footer">
-       <p class="text-center py-2 text-white">Handuah &copy; 2019</p>
+       <p class="text-center py-2 text-white">LIBER-TECH &copy; 2020</p>
     </footer>
 
 </body>
-<script src="js/jquery-3.3.1.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="{{asset('js/jquery-3.3.1.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
 <!-- script for toggle sidebar button -->
 <script>
     // $(document).ready(function () {

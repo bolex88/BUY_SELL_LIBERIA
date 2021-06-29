@@ -15,7 +15,7 @@ Route::group([ ], function (){
  
 Route::get('/', 'PostsController@showProducts')->name('products');
 Route::get('/products/details/{id}', 'PostsController@showDetails')->name('products.details');
-
+// Route::get('/search/', 'PostsController@search')->name('search');
 });
 
 Auth::routes();

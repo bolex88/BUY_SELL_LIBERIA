@@ -13,7 +13,7 @@
      <!-- NAVBAR  -->
      <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-3">
         <div class="container">
-                <a class="navbar-brand text-white" href="index.html">Buy and Sell Liberia</a>
+                <a class="navbar-brand text-white" href="/">SHOPLIB.COM</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,6 +34,7 @@
            
                 <div class="col">
                      <h4 class="text-center mt-3">Sign Up Here</h4>
+                     <a href="{{ route('login') }}" class="text-muted py-2">Already have an account? Click here!</a>
                 </div>
 
                 <div class="card-body">
@@ -125,15 +126,17 @@
                                 </button>
                             </div>
                         </div>
+                         <br />
                     </form>
+
                 </div>
            
         </div>
     </div>
 </div>
-  <!-- FOOTER -->
-    <footer  class="bg-primary py-3 footer">
-       <p class="text-center py-2 text-white">Handuah &copy; 2019</p>
+ <!-- FOOTER -->
+    <footer  class="bg-primary py-3">
+       <p class="text-center py-2 text-white">LIBER-TECH &copy; 2020</p>
     </footer>
 
 </body>

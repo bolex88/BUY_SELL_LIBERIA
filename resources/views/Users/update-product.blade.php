@@ -58,9 +58,9 @@
                                 <button type="submit" class="btn btn-block btn-primary">Update Product<span><i class="far fa-hand-point-right"></i></span></button>
                             </form>
                         </div>
-
+                       
+                    </div>
             </div>
-        </div>
 
                     </div>
                 </div> 
@@ -68,4 +68,5 @@
       </section>
       <br />
       <!-- SELLER VIEW ENDS HERE -->
+
 @endsection
